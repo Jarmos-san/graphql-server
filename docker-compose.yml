@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    command: strawberry server schema
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8000:8000"
