@@ -11,6 +11,22 @@ Find more information in this README if you would like to know more about:
 2. Contributing to the project.
 3. Supporting the project.
 
+## What's the Project About
+
+The [`json-server`](https://github.com/typicode/json-server) project has been a major
+source of inspiration to develop `graphql-server`. The idea is to spin up a quick
+GraphQL server with placeholder data & serve it on `localhost`. Further, the placeholder
+data can be delivered to the `grahpql-server` using a simple JSON file (_or perhaps a
+SQLite database_). The possibilities of how to deliver seraliased data to the
+`graphql-server` on the local system is endless but we would prefer to keep it simple.
+
+That said, the project depends on the [`Strawberry`](https://strawberry.rocks) Python3
+library to provide a GraphQL ecosystem. The project's development is still in its infancy
+so expect the tech stack to develop over time.
+
+And now, to setup a local environment & see how the project works, refer to the next
+section.
+
 ## Getting Started With Using GraphQL-Server
 
 If you need to use GraphQL-Server on your local system, here are the following ways you
